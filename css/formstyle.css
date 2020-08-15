@@ -30,9 +30,9 @@ width:55%;
 .grid-div{
     
     border:;
-    padding:95px 5px 25px 50px ;
-    width:px;  
+    padding:95px 250px 25px 70px;
     box-shadow: 0px 1px 2px 1px grey;
+    background-color:white;
     
 }
 
@@ -72,13 +72,17 @@ label{
 }
 
 .body-div{
-    background-image: url(../img/.jpg);
+    background-color:;
+    background-image: url(../img/sky.jpg);
     width:auto;
     height:auto;
+    background-size:cover;
     
 }
 
-h4{color:black;}
+.header{color:black;
+    font-weight: bold;
+}
 
 label,input{
 }
@@ -86,3 +90,4 @@ label,input{
 .form-control{
     width:50px;
 }
+

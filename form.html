@@ -17,53 +17,56 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 
-<div class="body-div">
-<body>
+
+<body class="body-div">
     
     <div class="first-div">
-        <div class="  img-class">
+        <div class="img-class">
            <!--  <p class="img-text">Welcome to the Data Interchange professional e-invoicing portal.</p> -->
         </div>
         <div class="grid-div">
+            <form action="niit.php">
 
-            <h4>Create your account</h4>
+            <h4 class="header">Create your account</h4>
 
-            <label >
+            <label class="small" >
                 <span>First Name</span>
                 <input type="text" name="" class="input-cls "  size="50">
             </label>
 
 
-            <label class="label-cls">
+            <label class="label-cls small">
                 <span>Your Email address</span>
                 <input type="email" name="" class="input-cls " size="50">
             </label>
 
-            <label class="label-cls">
+            <label class="label-cls small">
                 <span>Password</span>
                 <input type="password" name="" class="input-cls " size="50">
             </label>
 
 
-            <label >
+            <label class >
                 <input type="checkbox" name="" class="" size="50"> Remember me
             </label>
 
 
-            <input type="submit" value="Create new"  class="sub-cls " size="50">
+            <input type="submit" value="Create new"  class="sub-cls small btn-block"  name="log" size="50">
 
-            <p>Already have an account? <a href="">Sign in</a> </p>
+            <p  class="small">Already have an account? <a href="">Sign in</a> </p>
             
             <hr>
-            <p>By clicking Sign Up you agree to the <a href="">Terms</a> & <a href=""> Privacy policy.</a></p>
+            <p class="small">By clicking Sign Up you agree to the <a href="">Terms</a> & <a href=""> Privacy policy.</a></p>
 
         </div>
 
     </div>
+</form>
+    </body>
 
 
 </body>
-</div>
+
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
